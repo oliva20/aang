@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: monospace;
+}
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 23;
+}
+
+h3 {
+    font-size: 20px;
+}
+p {
+    font-size: 19px; 
+}
+
+main {
+    margin: 20 200;
+}
+
+article{
+   margin: 10;
+   text-align: center; 
+   border: 1px black solid;
+}
+
+article > p {
+    text-align: justify;
+    padding: 10;
+}
+
+nav {
+    border: 2px black solid;
+}
+
+nav > h1, h2, h3 {
+    text-align: center;
+    width: 100%;
+}
+
+#nav {
+    text-align:center;
+    margin-bottom: 20;
+}
+
+#nav li {
+    display:inline;
+    border: 2px black solid;
+    padding: 10 0;
+}
+#nav a {
+    font-size: 20px;
+    text-decoration:none; 
+    padding:0 40; /* variable width */
+    color: black;
+}
+
+#nav li:hover {
+    background-color: cyan;
+}
+
+
+table {
+    margin: 10;
+}
+
+td {
+    padding: 10;
+    border: 1px black solid;
+}
+
+td:hover {
+    background-color: cyan;
+}
+
+th {
+    float: left;
+}
+.contact-container {
+    width: 100%;
+}
+#me-image {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+
+.tech-list {
+    font-size: 19px; 
+}
+/* It would be cool to have the box painted with color according to the percentage of
+knowledge in that language */
+
+.tech-list > li {
+    padding: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    display: inline-block;
+}
