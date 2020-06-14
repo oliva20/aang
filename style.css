@@ -22,9 +22,9 @@ main {
 }
 
 article{
-   margin: 10;
+   margin: 40 0;
    text-align: center; 
-   border: 1px black solid;
+   border: 2px black solid;
 }
 
 article > p {
@@ -102,6 +102,8 @@ knowledge in that language */
     display: inline-block;
 }
 
+/* ##### Work Page #####
+
 /* work grid */
 .grid-container {
     display: grid;
@@ -133,4 +135,20 @@ knowledge in that language */
 .grid-item > h2:hover {
     text-decoration: underline cyan;
 }
+
+.done {
+    text-decoration: line-through cyan;
+}
+
+.learning-list {
+    font-size: 19px; 
+}
+
+.learning-list > li {
+    padding: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    display: inline-block;
+}
+
 
